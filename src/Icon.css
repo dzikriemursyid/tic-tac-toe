@@ -1,5 +1,5 @@
 .Btn {
-  margin-top: 1rem;
+  margin: 0.5rem;
   font-size: 0.8rem;
   border: none;
   border-radius: 50%;
@@ -50,11 +50,11 @@
 
 @media screen and (max-width: 480px) and (max-height: 800px) {
   .Btn {
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
   }
 
   .text {
-    width: 100px;
+    width: 110px;
   }
 }
