@@ -4,7 +4,6 @@ body {
   font-style: normal;
   background-color: #ffebbc;
   box-sizing: border-box;
-  overflow: hidden;
 }
 .container {
   display: flex;
