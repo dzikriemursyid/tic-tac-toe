@@ -1,10 +1,10 @@
 .Btn {
-  margin: 0.2rem;
+  margin-top: 1rem;
   font-size: 0.8rem;
   border: none;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -33,7 +33,7 @@
 }
 
 .Btn:hover {
-  width: 110px;
+  width: 150px;
   transition-duration: 0.4s;
   border-radius: 30px;
 }
@@ -46,4 +46,15 @@
 .Btn:hover .svgIcon {
   opacity: 0;
   transition-duration: 0.3s;
+}
+
+@media screen and (max-width: 480px) and (max-height: 800px) {
+  .Btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .text {
+    width: 100px;
+  }
 }
